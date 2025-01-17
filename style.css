@@ -5,12 +5,6 @@
 	padding: 0 16px;
 }
 
-
-d-flex{
-	display: flex;
-}
-
-
 header {
 	background-color: darkblue;
 }
@@ -42,3 +36,65 @@ ul{
 	color: black;
 }
 
+.divclass{
+	width: 3px;
+	height: 3px;
+	border-radius: 60px;
+}
+
+.sectiontext {
+	color: black;
+}
+
+div {
+	color: black;
+}
+
+.servicediv {
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+	align-items:center ;
+}
+
+.circle{
+	height: 8px;
+	width: 8px;
+	background-color: gray;
+	border-radius: 50%;
+}
+
+.circle:nth-child(1){
+	background-color:blue;
+}
+
+.header-wrapper2{
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	color: white;
+	align-items: center;
+	padding-top: 70px;
+}
+
+.articlediv {
+	height: 70px;
+	width: 70px;
+	background-color: gray;
+}
+
+.articlewrapper {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 80px;
+    
+}
+
+article {
+	max-width: 300px;
+}
+
+img {
+	height: 60px;
+	width: 60px;
+}
